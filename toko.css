@@ -1,0 +1,48 @@
+.card {
+    margin: 10px; 
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+border-radius: 10px 10px 10px 10px;
+-webkit-border-radius: 10px 10px 10px 10px;
+-moz-border-radius: 10px 10px 10px 10px;
+}
+
+.card-text {
+    margin-top: 10px;
+}
+
+.Samsung{
+    background: #213daf;
+background: linear-gradient(163deg,#213daf 0%, #05b2f1 80%);
+background: -webkit-linear-gradient(163deg,#213daf 0%, #05b2f1 80%);
+background: -moz-linear-gradient(163deg,#213daf 0%, #05b2f1 80%);
+}
+
+.iphone{
+    background: #000000;
+background: linear-gradient(163deg,#000000 0%, rgba(213,171,171,0.08) 80%);
+background: -webkit-linear-gradient(163deg,#000000 0%, rgba(213,171,171,0.08) 80%);
+background: -moz-linear-gradient(163deg,#000000 0%, rgba(213,171,171,0.08) 80%);
+}
+
+.xiaomi{
+    background: #af8221;
+background: linear-gradient(90deg,#af8221 0%, #05ddf1 80%);
+background: -webkit-linear-gradient(90deg,#af8221 0%, #05ddf1 80%);
+background: -moz-linear-gradient(90deg,#af8221 0%, #05ddf1 80%);
+}
+
+.infinix {
+    background: #af2121;
+    background: linear-gradient(163deg,#af2121 0%, #f1ee05 80%);
+    background: -webkit-linear-gradient(163deg,#af2121 0%, #f1ee05 80%);
+    background: -moz-linear-gradient(163deg,#af2121 0%, #f1ee05 80%);
+}
+
+.itel{
+    background: #af2121;
+    background: linear-gradient(163deg,#af2121 0%, #5705f1 80%);
+    background: -webkit-linear-gradient(163deg,#af2121 0%, #5705f1 80%);
+    background: -moz-linear-gradient(163deg,#af2121 0%, #5705f1 80%);
+}

@@ -1,0 +1,141 @@
+.image{
+    width: 90%;
+    padding: 10px;
+    margin: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+
+.kotak-kotak{
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.kotak1{
+  border-radius: 25px;
+  width: 500px;
+  height: 100px;
+  color: black;
+  margin: 10px;
+  margin-left: 100px;
+}
+
+.kotak_spesial{
+  border-radius: 25px;
+  width: 500px;
+  height: 100px;
+  color: black;
+  margin: 10px;
+  margin-left: 650px;
+}
+.kotak2{
+  border-radius: 25px;
+  width: 500px;
+  height: 100px;
+  color: black;
+  margin: 40px;
+}
+
+.kotak3{
+  border-radius: 25px;
+  width: 500px;
+  height: 100px;
+  color: black;
+  margin: 40px;
+}
+
+body {
+  background: rgba(0,0,0,0.68);
+  background: linear-gradient(179deg,rgba(0,0,0,0.68) 0%, rgba(246,224,224,0.73) 80%);
+  background: -webkit-linear-gradient(179deg,rgba(0,0,0,0.68) 0%, rgba(246,224,224,0.73) 80%);
+  background: -moz-linear-gradient(179deg,rgba(0,0,0,0.68) 0%, rgba(246,224,224,0.73) 80%);
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .products {
+    padding: 40px 20px;
+    text-align: center;
+
+  }
+  
+  .products h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .product-list {
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product-item {
+    display: flex; /* Mengatur elemen dalam product-item menjadi baris */
+    align-items: center; /* Menyelaraskan item secara vertikal */
+    gap: 20px; /* Jarak antara gambar dan teks */
+    background: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%; /* Lebar maksimum tiap kartu produk */
+    margin: 10px;
+  }
+  
+  .product-item img {
+    width: 150px; /* Atur ukuran gambar */
+    height: auto; /* Mempertahankan proporsi gambar */
+    border-radius: 10px;
+  }
+  
+  .product-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .product-item p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .product-item .btn {
+    background-color: #f5efef;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  
+  .product-item .btn:hover {
+    background-color: #ff9900;
+  }
+  
+.btn_range {
+  background-color: greenyellow;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  
+  
+}
+
+.btn_range:hover {
+  transition: 0.5s;
+  background-color: green;
+  color: rgb(54, 2, 199);
+  color: black;
+}
+

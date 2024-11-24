@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CariPhone</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary"
+  nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">PHONE VERSE</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="main page.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Shop.html">Toko</a>
+            <li class="nav-item">
+              <a class="nav-link" href="AboutUs.html">About Us</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" id="search_bar" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit" id="search_button">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <script src="script search.js">
+  
+    </script>
+    
+      <div class="image">
+        <section id="products" class="products">
+          <div class="product-list">
+            <div class="product-item">
+              <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8ODRAQDhAQDxAOEBAPDQ0NEBAQFw4QFRUWFxYWFRUYHygmGCYlHRYfIjEhJSkrLy4vGB8zOD84PCktLi0BCgoKDQ0NFQ8QFS0ZFR0tKy0tLS03Ky0tNysrKystNzctLS0tNysrKzcrKysrKy0tNysrLS0tKy0rNysrLSs3K//AABEIANsA5gMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABgcFCAEDBAL/xABBEAACAgECBAMEBwQGCwAAAAAAAQIDBAURBhIhMQcTQSJRYXEUI0JScoGRCDKSoTZDU4KxsxUkJjM0NWN0daKy/8QAFgEBAQEAAAAAAAAAAAAAAAAAAAEC/8QAFhEBAQEAAAAAAAAAAAAAAAAAAAER/9oADAMBAAIRAxEAPwC8QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAK24/8VqdPnPGwoxysqO8bJSb8rHl7pNdZyXrFNberT6Hd4x8Yy07Ejj40uXKzFJKcXs6KF0nNe5tvlj+b+ya8EtWRmte4y1PN5pZGZe1tJquqbpgvhyV7J/nuzajT4SjRVGX70a4KW/3lFbmsXh3oEtS1XHp5d6q5rIyX6KmtptP8T2j/AHvgbSiFAAVAAAAAAAAAAAAAAAAAAAAAAAAAAAAQDi3xXwMCUqqd83IjupQoklXXJek7eq3+EVJr1K8zfGnVZyflV4dMfSLrsta+cnNJ/oho2CBQOn+NmpQf19GJfH1UFZRL+Lmkv/UnWheMOl5G0cjzMKb/ALePPBv4WQ32XxkogVP4r6jLJ13Mbe8aJQxq192NcVuv43J/mR3SNLyM2+OPi1Suun2hD0XrKT7RS9W+hdOVwVw7mZV2dZqUbY32Susrhm40a031fWK5l/Eex8b8O6JS6sBQtfd16dFWux9t53t8sn8XJsi6zvh3wZXo+I4NqzJu2llXpdG12hDf7Md3t722/XZSwojVPG/Nm39FxceiO/R3uy+TX91wS/mY+rxl1iL3ksOa+7KixfzViGjYcFU8N+NWNdJQ1Ch4jb2V9UndV/eWylD9JL3stHGyK7q42VTjZXZFSrsrkpRnF9nGS6NFR2gAAAAAAAAAAAAAAAAAAAAAAAFHeLPiPO2yzT9PscKYN15eTW9pXTXSVcJLtFdm1+8912T5p94s8SS07SpuqXLflSWNRJd4OSbnNe7aCez97ia0JbdiVYJbAAigAA45V7kcgAAAAJx4V8VZ2Fm14+PXbl0Xz+twq05OO7621+kGu732i/Xbo1ENOwbcq+qiiPPbfONdUffJ+9+iXdv0SbNnOBuDsfR8ZV1pTvmk8rKa9q6fuX3Yr0j6fFtt2JUlABUAAAAAAAAAAAAAAAAAAAAAFFftB57lnYePu9qcedzXpvbPlX6Kn+ZVRYXjq3/pzr6YePt8ue0r0zVgAAoAAAAAAAC1PADSFbm5OXNb/Rao1U7+llzfM18VGG3ysZexUv7PEl9Ezl9pZMG/wuqKX80y2jUSgACAAAAAAAAAAAAAAAAAAAAACg/H/FcdVx7fS7DjBfiqsm3/ACsiViXt+0DpjswcbKit3jXuub+7Xctt/wCOEF+ZRJmrAABQAAAAAAAFj+BetxxtUnjTe0c+tQg3/bVc0oL84yn+ey9TYM04qslCUZwk4ThKM4Ti9nCcXvGSfvTW5sf4beIFWrUxquca86uP1tXZXpf1lXvXvj3j8tm7EqcAAqAAAAAAAAAAAAAAAAAAAAADF8UaPHUMDJxJbLz6pQjJ9eSzvCX5SSf5GpltU65yhZFwsrlKFkH3hOLalF/Jpo3HKD8ceF3jZkc+qP1OY+W/btXkpd3+OK3+cZe8lWKxABFAAAAAAAAD6rnKMoyi3GUGpQnBuMoSXZxa6p/FHySDgThmerahXjrdVL6zLsX2KIvqt/Ry/dXz39GBfXhTkZ12k1XahbK6dzlOhzjFSWP0UOZpe03s5bvrtJEwPimqMIRhBKMYRUYRitlGKWySXyPs0yAAAAAAAAAAAAAAAAAAAAABj9e0enPxLcXIjzV3R5Xt3i+8ZRfo00mn70ZAAak8S6FfpuZZi5C9ut7xmlsrq3vy2R+D2/Jpr0MWbScd8GY+sYyhZ9XfXu8bJS3dUn3TX2ovbrH4J90ma6cS8L5ul2OOZTKEd9o5Ed5VWfhs22/J7P4ExdYYCn6yShWnZOT2jCtOcpP3KK6snnD3hNqmYlO2MMKt9nlb87XvVUeq+UnFkVAwXNV4FLl9vUW5e+GKor9HY9zD6z4KZ9MHLFyKczbr5bi8acvhHmlKL/OSGJqsQerVNPvw7PLy6rMef3L4uG+3rFvpJfFboaTpt+baqsSqeRY9vYpjzbb+sn2ivi2kFdOPRO2cK64yssslGFdcFu5zk9kkvizZrw34QjpGCoS2lk37WZdi67z9IRf3Yp7L3vd+ph/DLw2jpe2VluNubKO0VHrDEi11UH9qT7OXu6Lpu5WIWRKAAqAAAAAAAAAAAAAAAAAAAAAAAABxKKa2aTT7p9dzk4clvtut32QHVRi117+XXCG/fkjGO/6HcAAAAHxbVGa2nGMl92STX6MU0xgtoRjBe6CUV+iPsAAAAAAAAAAAAAAAAAAAAAAAAADxa1RfbiX14tipvnVONFzW6rscWoyfyZ7TB8ctrRtSa6NYGY016PyZgdfCODnYumxr1DIWTkw81yujKU9ottxXPJJy2Xq0Vj4caTqGu4dmVdrWpUSrvdChRdJJ7VVT5mt/+ptt8CY+D0m+HKW22+bM6t7/ANdYQTwe4903StNtozrpVWTyXfCMarbOat00wT3iml1g+4EkxdX1PQ9XxMHUcr/SGHqEvLxsmyCjZXY5KC3fd7SnFPdvpJNbbNDjlf7XaH+B/wCNp5VbdxPrOBk049tOm6ZPzlk5EeT6RPmhP2F67uuC2T6JSb2bSPnxShfLiTSY4k415E6+Sm2ceZVOU5pz5fXli29vVpEVb/Mt9t1v7jkqjirwpx68O7Lx8jLlqGPXLIWXde5zvnCLk1J/ZbS2Ti1s9u/YkHAvFsruHVn5bcpYtWR9Imu9nkc3tfNxSfzZUTZtLq+i97OUyoOEeGHxJXLUtasturttsjh4Ndkq6qYQk4tpR2fRpxXq+Xd779OrXMSfCWbi34dtr0vKs8rKwrZucan3bhv68u8k++8Gm2n0C5DhyS26rr2+JVnjlk20vSbcf/e15jlSm+k7FySgpe9OSR6czwgx8mqVmXlZV+ozjzSz52bpW99o17bKCfaK6pdmgLLOG9u5Xvgvr2Rl6fdVlyc7cG90OycuaThyppSk/wB5p8y39yRH9GjRxNkZWXqmTtgVXOjT9O8/yIyjFJ+bNJpttSXX3uS7JIC4k9+3X4o5Kdya6OHdVwJaZkOWBn2rGy8Hz/OjVKUoxVkd22v3t9319lrfZ7K4gAAAAAAAAAAAAAAAAAAAGD47/wCS6n/4/M/yJmcOjPw68ii2i6PNVfXOm2G7jzVzi4yW66rdPugIR4N/0cp/Fmf59piP2eqYy0e9yjGTWdPZySe3+r4xYmi6JjYONHFxYOuiHPywc5z255OUvak2+rb9Tq4b4cxNMplRhVOqqdjtlF2WWbzcYxb3m2+0EtvgBliq+Of6XaH+F/42lqGJz+G8PIzKM26pyycVbY9vmWR5F1+yns+77pgd3EP/AAOV/wBtf/lyK18NNOnmcH5ONXtz3rOqr36Lnkmo7v57FrZNEba51zW8LIyhNbtbxktmt126M8PD+hY2nY6x8Ot1UqUpqDnOz2pd3vNt/wAwIV4I65VZpiwZvy8rCsuhZj2ezPklZKalyvr0cnF+5xe/pvifGfLjqWRg6PiyVuRPJ8y7k9ryFySgufbt7M5Ta9FD4omfEfh5pWo2+dkY+1z/AHrqZzplN9t5crSk/i1uezhng7TtLT+hY8a5SW07ZOVk5LvtzybaXwWyAhHjitno692cl/8ABapide4bw9Q8n6XU7fo1nm0bWWV8k+nX2Gt+3qZYCqfBGHMtYj97Nkt/nzmA8L+H9JnPJ07V8el6hjZEow89yg7alGK2h1XNs05dPsziy39B4bxNP876JU6vpNnm3b2WT559evtt7d/Q8fE3BGm6o1LMxozsSSV0JTrnsuycoNcy69nuiK8VfAGhU218uJjwt5lKlc81KU4+0uVc3Xbl3/Il5EeH/DXSdPyI5GPjyV9e/l22XXTcN1s9k5bdnt2JcVAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAf/Z" alt="iPhone">
+              <h3>iPhone</h3>
+              <p>
+                anda butuh handphone yang memiliki kamera bagus? Serta chipset yang gahar , pilihlah hp dari iPhone , klik tombol di samping untuk melihat hp lainnya
+
+              </p>
+              <p>
+                Range: 2.000.000 - 20.000.000
+              </p>
+              <a href="Toko Iphone All.html" class="btn" id="toko_iphone_all">Lihat Lainnya</a>
+            </div>
+            <div class="product-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcStv5JX5L7QEEsv9AtQpwm-B1aEbty5-q7IvQ&s" alt="Samsung">
+              <h3>Samsung</h3>
+              <p>anda butuh hp untuk jangka panjang? Pilihlah hp Samsung , dijamin awet , tidak hanya itu , hp dari bran Samsung juga memiliki banyak model hp yang beragam , seperti contohnya smartphone lipat , ingin tau lebih banyak produk Samsung? Klik tombol lihat lainnya</p>
+              <p>Range: 1.500.000 - 26.499.000
+              </p>
+              <a href="Toko Samsung All.html" class="btn" id="toko_samsung_all">Lihat Lainnya</a>
+            </div>
+            <div class="product-item">
+              <img src="data:image/png;base64,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" alt="Xiaomi">
+              <h3>Xiaomi</h3>
+              <p> anda takut membeli hp lain yang tidak ada jaminan garansi nya? Pilihlah hp dari brand xiaomi , brand ini memberikan garansi yang cukup menjanjikan , yaitu selama dua tahun , selain itu brand Xiaomi juga terus berinovasi , jadi banyak sekali pilihan-pilihan hp yang bagus dari brand ini , mulai dari yang termurah sampai yang mahal, tertarik untuk membeli hp dari Xiaomi ini? Klik tombol lihat lainnya untuk melihat produk - produk dari xiaomi</p>
+              <p>Range: 1.410.000 - 12.000.000</p>
+              <a href="Toko Xiaomi All.html" class="btn" id="toko_xiaomi_all">Lihat Lainnya</a>
+            </div>
+            <div class="product-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSKxnXyY38Brfbvhaj3wiK_1LbhQGuR310FnqfyJgaKdrT41KHpaBohEX0QOp_EQpQ7yk&usqp=CAU" alt="Xiaomi">
+              <h3>Itel</h3>
+              <p> anda ingin memiliki hp yang desain nya bagus? Kebetulan sekali , hp-hp dari brand itel ini menawarkan sebuah hp yang memiliki desain yang bagus , tapi hp-hp dari brand itel juga tidak kalah jauh spek nya dibanding dengan hp dari brand lain , bahkan dengan harga terjangkau anda bisa membeli sebuah hp yang memiliki desain bagus serta layar yang jernih , jadi apa yang membuat kamu ragu buat beli hp itel? Ayo buruan beli , sebelum keduluan sama orang lainn !!!</p>
+              <p> Range: p950.000 - Rp2.299.000</p>
+              <a href="Toko Itel All.html" class="btn" id="toko_itel_all">Lihat Lainnya</a>
+            </div>
+            <div class="product-item">
+              <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAdVBMVEX///8AAAD8/PwUFBRFRUWHh4c3NzeGhoY+Pj6enp6BgYFUVFTX19fl5eV9fX1wcHCUlJRiYmL29vYfHx+3t7cMDAwzMzONjY3q6upkZGS9vb3e3t5aWlpOTk53d3cpKSnLy8uoqKgiIiLDw8OampqkpKRCQkL1hr7TAAAET0lEQVR4nO2b6WKiMBgAARFtrVJpFVmsa8/3f8StQA4IwS7BVnZn/hlyOYSPHOp5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABvnjLM6ydcn+WCb+2lcJDhWvqiqfh+jld/K68Gs8lsk34rND1VFVxe0gHf0+Yt+/mJN5VcVskJ6eIxC41vPUVDJeJ+nm4cQkdKzn1lAyXiezqrWtWzV3ppLxOplWrUVu1bQME+HkbQAn26qK74mxwzhJxI30J7f3Feldee2Yltw71P9e1fHq1MuvMoyTnVCyTQbq108yjJNl43kZNwM7uRuoWz8KTkxwYuLiRM19v9fJ38y5+8zPDSdrf3LCX3nHw3Zi8hDFz7sy6+tkI1Llq1jhVy/O9+b8ZFrm2oRePpu3tbDNbpb1Xj6VDflp8Wklmtms219zeSQ65vdZSRtOxOI2vvftpGVfjh1ZfP9XWaExjxXzu4/HjsKHnd7L+jw2UMvNVinL3/L6Ww8ldicvnd93nheZu77VWScPnS28HK1OdCmZ+XBoSvrNE61OzvC7vI9rBydn2GixqbneCTK7lJ2rkt5O/HLbLL+cEz3sm2vAfaMjSslWXkn7KenvpAqhxk6SwtWJ/97hRBuhNSnuo8TFyaLI3hFmnZ28dDkJlBTt8Vm6j5JuJw/xtEmsBcYizCbpZ2q6EmmHVGad5eedbNbTtNmCutH+scOJlygpsZCyi2RafyVdTuqvQ9HqQV7X1ntyXZybJTqc7Fuyf1qW1+Xob91TSlRMqaRosWT6ZQMmdiexpYSMINqd6JrH2p2Elo0FKSUTKe37bNoecNFZbZS4KLE72bSNkqJl0e5KpfVzcrS0kIjbvRAplr1HTUpWU+K2R2l1srAWETlcnUysLayafbDtxybqSY93HwMp6ZjbW4uIiOLqxL7sFMuKs050KZuhlPRxIu7iNTjxEvNcaWVk+kvG7sRLwqGVjN+Jl6jQOoySsceTE7WRMoCSf8GJvhCNXM+9T/wDTmphdoiTwvE7SdS8pNGrvozeCe8dI6uh5HPt2vF1v8TIx4kWS9Q81jWmjNuJvt7J5W8b/uv1jqZkHeh7bE5bBaN2Eigl+9O8RDvEuMz+yfXH2KShxPN28jzSKaaMd5xoW497MXtdqpM6h5gyWie6ErWHmV903/7KnWi79gt9WzdXMaW3lLHGEzVKnurLvlw9PoOfA163E6XE2PzXVsk9pYzSSaCNEvM8ZKnePv2kGL+jvnw8WTWbNDCciK200okWS1qUfI4UdVjZS8rNPDzxIQ+iDx9Fwtxe231ZZK6dUe/CslTUcrD3vJ0XyGHxVjWZmXlFkSqHXM1lVafKn9ikURhWvW4/Nbt7qjKEUZ8fpxr/yzj/R422HB2FgqS4kgRfyWzJUf8sO2CtITifBQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgqvkDIlBD3quq1Q0AAAAASUVORK5CYII=" alt="Xiaomi">
+              <h3>INFINIX</h3>
+              <p>anda ingin merasakan fitur fitur hp flagship, tapi budget anda kurang? Pilih lah hp dari brand Infinix , brand ini menawarkan sebuah produk hp yang harganya  terjangkau di pasaran , tapi memiliki spek yang gahar , brand ini juga selalu menyelipkan fitur fitur yang biasanya ada di hp flagship , jadi tunggu apalagi? Ayo beli hp Infinix sekarang sebelum stoknya habis</p>
+              <p>Range: Rp1.149.000 - Rp4.899.000</p>
+              <a href="Toko Infinix All.html" class="btn" id="toko_infinix_all">Lihat Lainnya</a>
+            </div>
+            
+          </div>
+          <div class="kotak-kotak">
+            <div class="kotak_spesial">
+              <h4 style="margin-bottom: 20px;">Ingin rekomendasi sesuai budget?</h4>
+              <h4>Masukkan budget anda</h4>
+              <input class="form-control me-2" type="number" id="input_range" placeholder="Budget Anda">
+              <p></p>
+              <button class="btn btn-outline-success" id="search_range">Cari!</button>
+              <h3 style="margin-top: 80px;">Atau pilih Range harga yang anda inginkan!</h3>
+            </div>
+          </div>
+          <div class="kotak-kotak" style="margin-top: 200px;">
+            <div class="kotak1">
+              <a href="Toko R low.html" class="btn_range" id="low_range">Low Range</a> 
+            </div>
+            <div class="kotak2">
+              <a href="Toko R mid.html" class="btn_range"  id="mid_range">Mid Range</a> 
+            </div>
+            <div class="kotak3">
+              <a href="Toko R high.html" class="btn_range" id="high_range">High Range</a> 
+            </div>
+          </div>
+          <script>
+            search_range.addEventListener("click",()=>{
+              const range_bar = document.getElementById('input_range')
+              const range_btn = document.getElementById('search_range')
+              if (isNaN(range_bar.value) || range_bar.value <= 0){
+                alert('Tolong masukkan budget yang valid')
+              }
+              else if(range_bar.value < 300000){
+                alert('Maaf toko kami tak menyediakan hp dibawah harga Rp.' + range_bar.value)
+              }
+              else if (range_bar.value < 2000000){
+                window.open('Toko R low.html')
+              }
+              else if(range_bar.value > 2000000 && range_bar.value < 5000000 ){
+                window.open('toko R mid.html')
+              }
+              else{
+                window.open('Toko R high.html')
+              }
+              })
+
+          </script>
+        </section>
+         </div>
+         <footer style="margin-top: 250px;">
+          <div class="footer-container">
+            <div class="footer-section">
+              <h3>Tentang Kami</h3>
+              <p>Kami adalah toko online terpercaya yang menyediakan berbagai kebutuhan Anda, dari gadget hingga aksesoris terbaru.</p>
+            </div>
+            <div class="footer-section">
+              <h3>Kontak</h3>
+              <p>Email: support@tokoonline.com</p>
+              <p>Telepon: +62 812-3456-7890</p>
+              <p>Alamat: Jl. Merdeka No. 123, Jakarta</p>
+            </div>
+            <div class="footer-section">
+              <h3>Tautan Penting</h3>
+              <ul>
+                <li><a href="/tentang-kami">Tentang Kami</a></li>
+                <li><a href="/faq">FAQ</a></li>
+                <li><a href="/kebijakan-privasi">Kebijakan Privasi</a></li>
+                <li><a href="/kontak">Hubungi Kami</a></li>
+              </ul>
+            </div>
+            <div class="footer-section">
+              <h3>Ikuti Kami</h3>
+              <div class="social-icons">
+                <a href="#"><img src="icon-facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="icon-twitter.png" alt="Twitter"></a>
+                <a href="#"><img src="icon-instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="icon-youtube.png" alt="YouTube"></a>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p>&copy; 2024 Toko Online. Semua Hak Dilindungi.</p>
+          </div>
+        </footer>
+        
+        <style>
+          /* Gaya umum untuk footer */
+          footer {
+          background-color: #333;
+          color: #fff;
+          padding: 20px 0;
+          font-family: Arial, sans-serif;
+          }
+        
+          .footer-container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          padding: 0 10%;
+          }
+        
+          .footer-section {
+          flex: 1;
+          min-width: 200px;
+          margin-bottom: 20px;
+          }
+        
+          .footer-section h3 {
+          margin-bottom: 10px;
+          font-size: 18px;
+          color: #ff9900;
+          }
+        
+          .footer-section p,
+          .footer-section ul,
+          .footer-section a {
+          font-size: 14px;
+          color: #ddd;
+          line-height: 1.8;
+          }
+        
+          .footer-section ul {
+          list-style: none;
+          padding: 0;
+          }
+        
+          .footer-section ul li {
+          margin-bottom: 8px;
+          }
+        
+          .footer-section ul li a {
+          text-decoration: none;
+          color: #ddd;
+          transition: color 0.3s;
+          }
+        
+          .footer-section ul li a:hover {
+          color: #ff9900;
+          }
+        
+          .social-icons a {
+          display: inline-block;
+          margin-right: 10px;
+          transition: opacity 0.3s;
+          }
+        
+          .social-icons a img {
+          width: 30px;
+          height: 30px;
+          }
+        
+          .social-icons a:hover {
+          opacity: 0.7;
+          }
+        
+          .footer-bottom {
+          text-align: center;
+          margin-top: 20px;
+          font-size: 14px;
+          border-top: 1px solid #444;
+          padding-top: 10px;
+          }
+        
+        </style>
+        
+      
+</body>
+</html>
